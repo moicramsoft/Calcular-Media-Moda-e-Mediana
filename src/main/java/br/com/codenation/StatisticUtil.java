@@ -36,7 +36,7 @@ public class StatisticUtil {
 
 	public static void main(String[] args){
 
-		int[] elements = {2,2,2,2,3,3,3,3,6,7,7,7,7,7};
+		int[] elements = new int[]{2,2,2,2,3,3,3,3,6,7,7,7,7,7};
 		System.out.println(mode(elements));
 	}
 }
